@@ -23,8 +23,22 @@ color: antiquewhite;
 iframe{
   margin-bottom: 20px;
 }
+/*body */
+body{
+  background-image: url(../images/fondo\ body.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+
 /*footer*/
 .footer{
+  
     width: 105px;
     height: 10px;
     
@@ -45,16 +59,12 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: bold;
 }
 
+footer{
+  margin-top: 23%;
+  margin-inline: auto;
 
-
-/*menu principal*/
-.fondo_menu{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 20px;
-padding: 10px;
 }
+
 
 /*tamaño de caja*/
 .cajitas{
