@@ -24,6 +24,11 @@ iframe{
   margin-bottom: 20px;
 }
 /*body */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body{
   background-image: url(../images/fondo\ body.jpg);
   background-position: center;
@@ -60,7 +65,8 @@ font-weight: bold;
 }
 
 footer{
-  margin-top: 15%;
+  margin-top: 13%;
+
 
 
 }
