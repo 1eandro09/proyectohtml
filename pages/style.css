@@ -39,7 +39,9 @@ background-attachment: fixed;
 background-position: center;
 display: flex;
 flex-direction: column;
-
+}
+.lorem{
+  background-color: darkmagenta;
 }
 
 
