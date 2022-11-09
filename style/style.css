@@ -1,37 +1,7 @@
 @charset "UTF-8";
-h1 {
-  background-color: antiquewhite;
-  font-size: 80px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-h2 {
-  color: grey;
-  text-align: center;
-  font-size: 40px;
-}
-
-h3 {
-  color: coral;
-  text-align: center;
-  font-size: 40px;
-}
-
-p {
-  color: antiquewhite;
-}
-
-.letras {
-  color: antiquewhite;
-}
-
-iframe {
-  margin-bottom: 20px;
-}
-
-/*body */
+/* Map */
 * {
+  /* RESET */
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -48,9 +18,26 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/*footer*/
-.footer {
+body section h1 {
+  background-color: antiquewhite;
+  /* map */
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+}
+body h2 {
+  color: grey;
+  text-align: center;
+  font-size: 40px;
+}
+body p {
+  color: antiquewhite;
+}
+body footer {
+  margin-top: 10%;
+  position: relative;
+}
+body footer .footer {
   width: 105px;
   height: 10px;
   margin: 15px;
@@ -68,9 +55,18 @@ body {
   font-weight: bold;
 }
 
-footer {
-  margin-top: 10%;
-  position: relative;
+h3 {
+  color: coral;
+  text-align: center;
+  font-size: 40px;
+}
+
+.letras {
+  color: antiquewhite;
+}
+
+iframe {
+  margin-bottom: 20px;
 }
 
 /*tamaño de caja*/
