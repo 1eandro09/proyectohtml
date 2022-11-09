@@ -1,16 +1,14 @@
-@import 'variables';
-
 h1{
-    color:$color-primario;
+    background-color: antiquewhite;
     font-size: 80px;
     text-align: center;
     margin-top: 20px
-}
-h2{
-color: grey;
-text-align: center;
-font-size: 40px;
-}
+  }
+  h2{
+  color: grey;
+  text-align: center;
+  font-size: 40px;
+  }
   h3{
   color: coral;
     text-align: center;
@@ -32,7 +30,7 @@ font-size: 40px;
     box-sizing: border-box;
   }
   body{
-  background-image: url(../images/fondo\ body.jpg);
+  background-image: url(/images/fondo\ body.jpg);
   padding: 0;
   margin: 0;
   background-size: cover;
@@ -44,11 +42,36 @@ font-size: 40px;
   }
   
   
-
- 
+  /*footer*/
+  .footer{
+    
+      width: 105px;
+      height: 10px;
+      
+      margin: 15px;
+      padding: 3px;
+  
+      border: 2px solid white;
+      border-radius: 20px;
+      
+      /*estilo de cajas*/
+      background-color: black;
+      color: antiquewhite;
+      /*propiedades de cajas*/
+      margin-top: auto;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  }
+  
+  footer{
+    margin-top: 10%;
+  position: relative;
   
   
   
+  }
   
   /*tamaño de caja*/
   .cajitas{
