@@ -124,10 +124,14 @@ textarea {
     margin-bottom: 10px;
 }
 
+@mixin flexible( $dis , $just , $align ){
+display           :$dis ;    
+justify-content   :$just ;
+align-items       :$align ;
+}
+
 .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@include flexible(flex,center ,center)
 }
 
 /*chocolates*/
@@ -181,3 +185,4 @@ img {
     align-self: center;
 
 }
+
