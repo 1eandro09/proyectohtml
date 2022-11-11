@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'form';
 
 * {
     /* RESET */
@@ -35,7 +36,7 @@ body {
     }
 
     p {
-        color: antiquewhite;
+        color: $color-principal;
     }
 
     footer {
@@ -50,8 +51,8 @@ body {
             border: 2px solid white;
             border-radius: 20px;
             /*estilo de cajas*/
-            background-color: black;
-            color: antiquewhite;
+            background-color: $color-secundario;
+            color: $color-principal;
             /*propiedades de cajas*/
             margin-top: auto;
             font-size: 20px;
@@ -64,13 +65,13 @@ body {
 
 
 h3 {
-    color: coral;
+    color: $color-tres;
     text-align: center;
     font-size: 40px;
 }
 
 .letras {
-    color: antiquewhite;
+    color: $color-principal
 }
 
 iframe {
@@ -93,8 +94,8 @@ iframe {
     border-radius: 20px;
 
     /*estilo de cajas*/
-    background-color: black;
-    color: antiquewhite;
+    background-color: $color-secundario;
+    color: $color-principal;
     /*propiedades de cajas*/
     font-size: 20px;
     text-decoration: none;
@@ -102,42 +103,9 @@ iframe {
     font-weight: bold;
 }
 
-/*contacto*/
-form {
-    background-color: antiquewhite;
-    text-align: center;
-    padding: 50px;
-    margin: 75px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.letras {
-    color: black;
-    height: 30px;
-    border: 10px;
-    border-radius: 30px;
-}
-
-textarea {
-    display: block;
-    margin-bottom: 10px;
-}
-
-@mixin flexible( $dis , $just , $align ){
-display           :$dis ;    
-justify-content   :$just ;
-align-items       :$align ;
-}
-
-.form {
-@include flexible(flex,center ,center)
-}
-
 /*chocolates*/
-
 li.letras {
-    color: antiquewhite;
+    color: $color-principal;
     font-size: 25px;
 }
 
@@ -146,7 +114,7 @@ img {
     height: auto;
     margin: auto;
     display: block;
-    border: solid antiquewhite;
+    border: solid $color-principal;
 }
 
 /*Alfajores*/

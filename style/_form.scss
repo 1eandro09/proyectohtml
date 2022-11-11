@@ -1,0 +1,31 @@
+/*contacto*/
+@mixin flexible( $dis , $just , $align ){
+    display           :$dis ;    
+    justify-content   :$just ;
+    align-items       :$align ;
+    }
+    
+
+form {
+    background-color:$color-principal ;
+    text-align: center;
+    padding: 50px;
+    margin: 75px;
+    border: 2px solid $color-secundario;
+    border-radius: 10px;
+}
+
+.letras {
+    color: $color-secundario;
+    height: 30px;
+    border: 10px;
+    border-radius: 30px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+    .form {
+    @include flexible(flex,center ,center)
+    }
