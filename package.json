@@ -2,7 +2,7 @@
   "name": "html",
   "version": "1.0.0",
   "description": "proyecto para coderhouse",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss style/stylos.css",
