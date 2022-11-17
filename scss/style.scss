@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'form';
+@import 'footer';
 
 * {
     /* RESET */
@@ -18,6 +19,7 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
+    }
 
     section {
         h1 {
@@ -61,7 +63,7 @@ body {
             font-weight: bold;
         }
     }
-}
+
 
 
 h3 {
